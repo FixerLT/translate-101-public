@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fiction-novel",
+    "duration": "12s",
+    "domain": {
+      "en": "Novel opening",
+      "uk": "Початок роману"
+    },
+    "label": {
+      "en": "Fiction — English narration",
+      "uk": "Художня література — англійське озвучення"
+    },
+    "src": "/assets/audios/fiction-novel.mp3",
+    "language": "en"
+  },
+  {
+    "id": "business-article",
+    "duration": "8s",
+    "domain": {
+      "en": "Article excerpt",
+      "uk": "Уривок статті"
+    },
+    "label": {
+      "en": "Business — English narration",
+      "uk": "Бізнес — англійське озвучення"
+    },
+    "src": "/assets/audios/business-article.mp3",
+    "language": "en"
+  },
+  {
+    "id": "academic-excerpt",
+    "duration": "15s",
+    "domain": {
+      "en": "Science excerpt",
+      "uk": "Уривок наукового тексту"
+    },
+    "label": {
+      "en": "Academic — English narration",
+      "uk": "Академічний — англійське озвучення"
+    },
+    "src": "/assets/audios/academic-excerpt.mp3",
+    "language": "en"
+  }
+]
