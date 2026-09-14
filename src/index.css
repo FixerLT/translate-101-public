@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  body {
+    @apply bg-white text-slate-900 antialiased;
+  }
+  section {
+    scroll-snap-align: start;
+  }
+}
+
+@layer base {
+  :focus-visible {
+    outline: 2px solid #0f172a;
+    outline-offset: 3px;
+  }
+
+  button, a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  dialog::backdrop {
+    backdrop-filter: blur(3px);
+  }
+
+  @media (max-width: 767px), (prefers-reduced-motion: reduce) {
+    html {
+      scroll-snap-type: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      scroll-behavior: auto !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .sample-preview {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    mask-image: linear-gradient(to bottom, #000 72%, transparent 100%);
+  }
+}
