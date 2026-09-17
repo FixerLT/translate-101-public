@@ -1,44 +1,58 @@
 [
   {
-    "id": "fiction-novel",
-    "duration": "12s",
+    "id": "sample-0",
+    "duration": "54s",
     "domain": {
-      "en": "Novel opening",
-      "uk": "Початок роману"
+      "en": "Historical Manifesto",
+      "uk": "Публіцистична Стаття"
     },
     "label": {
-      "en": "Fiction — English narration",
-      "uk": "Художня література — англійське озвучення"
+      "en": "Historical Manifesto — Mykhailo Hrushevsky",
+      "uk": "Публіцистична Стаття — Михайло Грушевський"
     },
-    "src": "/assets/audios/fiction-novel.mp3",
+    "src": "/assets/audios/sample-0-2.mp3",
     "language": "en"
   },
   {
-    "id": "business-article",
-    "duration": "8s",
+    "id": "sample-1",
+    "duration": "63s",
     "domain": {
-      "en": "Article excerpt",
-      "uk": "Уривок статті"
+      "en": "Philosophical Treatise",
+      "uk": "Філософський Трактат"
     },
     "label": {
-      "en": "Business — English narration",
-      "uk": "Бізнес — англійське озвучення"
+      "en": "Philosophical Treatise — Epictetus",
+      "uk": "Філософський Трактат — Епіктет"
     },
-    "src": "/assets/audios/business-article.mp3",
+    "src": "/assets/audios/sample-1-2.mp3",
     "language": "en"
   },
   {
-    "id": "academic-excerpt",
-    "duration": "15s",
+    "id": "sample-2",
+    "duration": "53s",
     "domain": {
-      "en": "Science excerpt",
-      "uk": "Уривок наукового тексту"
+      "en": "Diplomatic Statement",
+      "uk": "Політичний Виступ"
     },
     "label": {
-      "en": "Academic — English narration",
-      "uk": "Академічний — англійське озвучення"
+      "en": "Diplomatic Statement — Mark Carney",
+      "uk": "Політичний Виступ — Марк Карні"
     },
-    "src": "/assets/audios/academic-excerpt.mp3",
+    "src": "/assets/audios/sample-2-1.mp3",
+    "language": "en"
+  },
+  {
+    "id": "sample-3",
+    "duration": "46s",
+    "domain": {
+      "en": "Diplomatic Statement",
+      "uk": "Політичний Виступ"
+    },
+    "label": {
+      "en": "Diplomatic Statement — Volodymyr Zelensky",
+      "uk": "Політичний Виступ — Володимир Зеленський"
+    },
+    "src": "/assets/audios/sample-3-1.mp3",
     "language": "en"
   }
 ]
